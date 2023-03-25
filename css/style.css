@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    text-transform: uppercase; 
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 20px 0 20px 20px;
+    margin: 0;
+}
+
+.textLeft {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 700px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.menuRight {
+    margin-right: 80px;
+}
+.menuRight a{
+    text-decoration: none;
+    padding: 25px 25px 25px 0;
+    font-size: 24px;
+    color: black;
+}
+.menuRight a:hover {
+    color: #817070;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cupOfCoffee {
+    background: url(image.png);
+    width: 1442px;
+}
+
+.DoNotRush {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blockTakeYourTime {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    background: #817070;
+    width: 80px;
+    height: 10px;
+    margin-top: 10px;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.makingHistory {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+.makingCoffeeImg {
+    background: url(image.png);
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+    padding-left: 80px;
+}
+
+.textMaking {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 160px;
+    padding-top: 110px;
+    padding-right: 70px;
+}
+
+.blog {
+    background: #EFEFEF;
+}
+
+.card {
+    background: #FFFFFF;
+    width: 365px;
+    margin-bottom: 65px;
+}
+
+.card1 {
+    margin-left: 100px;
+}
+
+.card3 {
+    margin-right: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dailyCoffee {
+    padding: 20px;
+    height: 216px;
+    width: 325px;
+}
+.textDailyCoffee {
+    padding: 0px 20px 40px 20px;
+    margin: 0;
+}
+
+.subscribe {
+    background: #817070;
+}
+
+.yourEmail {
+    background: #817070;
+    border: 3px solid #FFFFFF;
+    width: 300px;
+    height: 55px;
+
+    color: black;
+}
+
+form input::placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.formEmail {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribeH3 {
+    color: #FFFFFF;
+    padding: 0;
+    padding-top: 60px; 
+    padding-bottom: 25px; 
+    text-align: center; 
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.buttonEmail {
+    width: 129px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #817070;
+}
+.buttonEmail:hover {
+    color: #fff;
+    background-color: #817070;
+    opacity: 0.5;
+    transition: all 0.4s ease-in-out;
+}
+
+.HostSubmit {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background: #fff;
+}
+
+.endText {
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
